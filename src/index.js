@@ -31,7 +31,7 @@ const sendDeviceMessage = (device, tag, message) => {
 const loadSamples = async (patch, context, samples) => {
     return Promise.all(
         samples.map(sample => {
-            return fetch(sample.path)
+            return fetch(sample.url)
                 .then(response => response.arrayBuffer())
                 .then(buffer => context.decodeAudioData(buffer))
                 .then(audioBuf => patch.setDataBuffer(sample.buffer, audioBuf));
