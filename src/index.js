@@ -1,6 +1,7 @@
 import RNBO from '@rnbo/js';
 
 /**
+ * A helper for sending an RNBO device a message through an inport.
  * @param  { RNBO.Device } device -- An existing RNBO device
  * @param  { String } tag -- The tag of the inport
  * @param  { Array.<any> } message -- The message to send via the inport
@@ -14,6 +15,7 @@ const sendDeviceMessage = (device, tag, message) => {
 };
 
 /**
+ * A function to load samples into buffers in an RNBO device.
  * @param  { RNBO.Device } patch
  * @param  { AudioContext } context
  * @param  { Array.<{url: String, buffer: String}> } samples
