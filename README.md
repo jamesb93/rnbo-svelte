@@ -14,7 +14,7 @@ As of writing this, there are three major things offered by this package.
 
 ## Usage Examples
 
-You can see an example [here](https://github.com/intersymmetric/intersymmetric/blob/643dd20aee8ff6f3df2c936469940ec192ecf1c9/src/lib/nyege/Instance.svelte#L1) in the [intersymmetric project](https://intersymmetri.xyz/nnnb) of `loadSamples` and `createDeviceInstance` being used to instantiate a device and then load a bundle of audio samples into the devices buffers.
+You can see an example [here](https://github.com/intersymmetric/intersymmetric/blob/643dd20aee8ff6f3df2c936469940ec192ecf1c9/src/lib/nyege/Instance.svelte#L1) in the [intersymmetric project](https://intersymmetric.xyz/nnnb) of `loadSamples` and `createDeviceInstance` being used to instantiate a device and then load a bundle of audio samples into the devices buffers.
 
 ```sv
 <script>
