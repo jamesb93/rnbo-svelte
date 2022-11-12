@@ -11,6 +11,6 @@
   "license": "BSD-3-Clause",
   "type": "module",
   "dependencies": {
-    "@rnbo/js": "1.1.0-dev.5"
+    "@rnbo/js": "1.0.1"
   }
 }
