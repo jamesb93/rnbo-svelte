@@ -1,6 +1,6 @@
 {
   "name": "@jamesb93/rnbo-svelte",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "license": "BSD-3-Clause",
   "type": "module",
   "dependencies": {
-    "@rnbo/js": "1.0.1"
+    "@rnbo/js": "1.0.2"
   }
 }
