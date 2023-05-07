@@ -45,6 +45,7 @@ const loadSamples = async (patch, context, samples) => {
  * @param { String } devicePath - Path to a JSON export of an RNBO patch
  * @param { AudioContext } context - Audio context
  * @param { GainNode } output - An output node in the audio context
+ * @returns {Promise}
  */
 const createDeviceInstance = (devicePath, context, output) => {
     return new Promise((resolve, reject) => {
